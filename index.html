@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mano page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-left">
+        <h1>Gabriela Rocha</h1>
+      </div>
+      <nav class="header-right">
+        <ul>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <figure>
+        <img
+          src="image (2).png"
+          alt="Imagem da cantora Gabriela Rocha"
+        />
+        <!-- <figcaption>Imagem do cantor de rap Mano Brown</figcaption> -->
+      </figure>
+
+      <section class="about">
+        <h2>Olá, meu nome é Gabriela Rocha</h2>
+        <p>
+            Sou Gabriela Rocha, cantora e compositora gospel, reconhecida como uma das principais vozes da música cristã no Brasil. Desde jovem, meu talento musical se destacou, e ao longo dos anos construí uma carreira marcada por louvores inspiradores e milhões de ouvintes ao redor do mundo. Com sucessos como Lugar Secreto e Diz, minhas músicas tocam corações e fortalecem a fé de muitas pessoas.
+        </p>
+        <div class="buttons">
+          <button class="primary">Projetos</button>
+          <button class="secondary">LinkedIn</button>
+        </div>
+      </section>
+
+      <section class="projects">
+        <h2>Projetos</h2>
+
+        <!-- Card 1 -->
+        <div class="card">
+          <div class="card-left">
+            <h3>Lugar Secreto</h3>
+            <p>
+              Lugar Secreto é uma das músicas mais icônicas de Gabriela Rocha. Lançada em 2016, a canção se tornou um grande sucesso no meio gospel, acumulando milhões de visualizações no YouTube e plays no Spotify.
+            </p>
+            <button class="secondary">Ver Projeto</button>
+          </div>
+
+          <div class="card-right">
+            <img
+              src="Lugar Secreto] 3.png"
+              alt="Imagem do Álbum"
+            />
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="card card-reverse" style="flex-direction: row-reverse;">
+          <div class="card-left">
+            <h3>Ecoar</h3>
+            <p>
+              Ecoar é um álbum lançado em 2020 que reforça a essência do louvor e adoração, trazendo letras que inspiram a conexão com Deus. O projeto inclui músicas que tocaram profundamente o público cristão.
+            </p>
+            <button class="secondary">Ver Projeto</button>
+          </div>
+
+          <div class="card-right">
+            <img
+              src="Ecoar 2.png"
+              alt="Imagem do Álbum"
+            />
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="card">
+          <div class="card-left">
+            <h3>Hosana</h3>
+            <p>
+              Este projeto é um louvor de adoração que foi lançada em 2014 e rapidamente se tornou um grande sucesso no cenário da música cristã. A canção faz parte do álbum "Revolução", que teve um impacto significativo nas igrejas e nos corações dos cristãos de todo o Brasil e até fora do país.
+            </p>
+            <button class="secondary">Ver Projeto</button>
+          </div>
+
+          <div class="card-right">
+            <img
+              src="Hosana 1.png"
+              alt="Imagem do Álbum"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="contact">
+        <h2 class= "underline">Contato</h2>
+        
+        <form class="form-contact" type="submit" method="POST">
+
+            <div class="form-input">
+              <label for="nome">Nome:</label>
+              <input type="text" id="nome" placeholder="Ex: Camilla" required>
+            </div>
+  
+            <div class="form-input">
+              <label for="email">E-mail:</label>
+              <input type="email" id="email" placeholder="Ex: gmail@gmail.com" required>
+            </div>
+  
+            <div class="form-input">
+              <label for="msg">Mensagem:</label>
+              <textarea id="msg" placeholder="Sua mensagem aqui" required></textarea>
+            </div>
+  
+            <div class="form-button">
+              <button class="primary">Enviar</button>
+            </div>
+          </form>
+        </section>
+  
+          <footer>
+  
+            <div class="icons">
+              <a href=""><img src="instagram-icon.png" alt="Logo do Instagram"></a>
+              <a href=""><img src="linkedin-icon.png" alt="Logo do LinkedIn"></a>
+              <a href=""><img src="email-icon.png" alt="Logo do E-mail"></a>
+            </div>
+  
+            <span>Gabriela Rocha 2025</span>
+        
+            <div class="footer-wave">
+              <img src="footer-wave.png" alt="">
+            </div>
+  
+          </footer>
+      </main>
+    </body>
+    <script src="script.js"></script>
+  </html>
